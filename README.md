@@ -8,8 +8,9 @@ OpenCV, PyVista, Pillow and Numpy
   1. Enter the path to the Folder containing the images in the parameters.txt file
   2. On the next line, enter the name of the images. For example, if your images are labeled image001, image002 and so on, enter - image
   3. Enter the range of numbering in the next line. For example, if your images are named image001, image002 ... image300 then enter - 1 300
-  4. Usually, it is advisable to have OpenCV and PyVista installed in different environments to avoid conflicts
-  5. First execute the detect_pores.py file and subsequently plot_pores.py in the respective environments
+  4. Enter the format of the images in the next line. 
+  5. Usually, it is advisable to have OpenCV and PyVista installed in different environments to avoid conflicts
+  6. First execute the detect_pores.py file and subsequently plot_pores.py in the respective environments
 
 **Note**: detect_pores requires OpenCV and plot_pores needs PyVista
 
