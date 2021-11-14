@@ -1,0 +1,4 @@
+/home/varun/Desktop/Github/3D Porosity/Front/
+170 100 333 41
+0 153
+tif
