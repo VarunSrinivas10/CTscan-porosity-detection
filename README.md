@@ -1,4 +1,4 @@
-# CTscan-Porosity-detection
+# Porosity detection from 3D CT scans
 This repository contains an OpenCV and PyVista based code to detect and visualise defects/pores in 3D CT scans of components. 3D CT scans usually return a number of depth-wise 2D images of the component made after sectioning either laterally or vertically. Pores are usually seen as discolorations and usually appear as small black spots. I have used the simple blob detector from opencv to detect the pores. The centers are then stored in an array and pyvista is used to overlay the pores onto a semi-transparent volume plot of the component. 
 
 ### Requirements:
